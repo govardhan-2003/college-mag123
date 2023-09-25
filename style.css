@@ -47,7 +47,9 @@ body{
     height: 500px;
     border-radius: 5px;
 }
-
+::-webkit-scrollbar {
+    display:none;
+  }
 .container{
     display: flex;
     justify-content: center;
